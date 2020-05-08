@@ -1,0 +1,14 @@
+<!--pages/main/mainpage.wxml-->
+<view>
+  <calendar id="calendar"></calendar>
+  <view class='schedule-list'>
+    <block wx:for="{{scheduleList}}" wx:key="k">
+      <view class='schedule-list-item'>
+        <view class="time">{{item.timeStr}}</view>
+        <view class="content">
+          <text>{{item.content}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

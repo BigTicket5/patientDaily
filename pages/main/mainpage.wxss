@@ -1,0 +1,32 @@
+/* pages/main/mainpage.wxss */
+
+.schedule-list .schedule-list-item {
+  position: relative;
+  height: 160rpx;
+  background-color: #fff;
+  margin: 16rpx 0;
+  border: 2rpx solid #e5e5e5;
+  border-width: 2rpx 0;
+}
+
+.schedule-list .schedule-list-item .time{
+  position: absolute;
+  left: 0;
+  width: 134rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 30rpx 0;
+  color: #00b358;
+  text-align: center;
+  font-size: 40rpx;
+  font-family: Arial;
+  border-right: 2rpx dashed #e5e5e5;
+}
+
+.schedule-list .schedule-list-item .content{
+  position: absolute;
+  left: 150rpx;
+  font-size: 30rpx;
+  margin: 50rpx 0;
+}
+
